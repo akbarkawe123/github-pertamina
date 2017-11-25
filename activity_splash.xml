@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/background"
+    tools:context="com.example.ee.project.SplashActivity"
+    android:orientation="vertical">
+<LinearLayout
+    style="@style/splash1">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        style="@style/splash"
+        app:srcCompat="@drawable/pertamina" />
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
