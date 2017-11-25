@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/background"
+    tools:context="com.example.ee.project.LoginActivity"
+    android:orientation="vertical">
+    <ImageView
+        style="@style/gambar"
+        android:src="@drawable/pertamina" />
+
+    <EditText
+        android:id="@+id/username"
+        style="@style/editText_style"
+        android:hint="Username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/editText_style"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_lgn"
+        style="@style/button_background"
+        android:elevation="0dp"
+        android:text="Login" />
+
+
+</LinearLayout>
