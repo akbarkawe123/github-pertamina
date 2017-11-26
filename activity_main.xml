@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_action_map"
+            android:elevation="6dp"
+            android:id="@+id/fab_map"
+            app:pressedTranslationZ="12dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+                <ImageView
+                    style="@style/gambar1"
+                    android:src="@drawable/pertamina"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="48dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:text="          Pertamina (dahulu bernama Perusahaan Pertambangan Minyak dan Gas Bumi Negara) atau nama resminya PT. PERTAMINA (Persero) adalah sebuah BUMN yang bertugas mengelola penambangan minyak dan gas bumi di Indonesia. Pertamina masuk urutan ke 122 dalam Fortune Global 500 pada tahun 2013."/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="viewStart"
+                        android:text="          Pertamina pernah mempunyai monopoli pendirian SPBU di Indonesia, namun monopoli tersebut telah dihapuskan pemerintah pada tahun 2001. Perusahaan ini juga mengoperasikan 7 kilang minyak dengan kapasitas total 1.051,7 MBSD, pabrik petrokimia dengan kapasitas total 1.507.950 ton per tahun dan pabrik LPG dengan kapasitas total 102,3 juta ton per tahun."/>
+                           <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                               android:textAlignment="viewStart"
+                    android:text="          Pertamina adalah hasil gabungan dari perusahaan Pertamin dengan Permina yang didirikan pada tanggal 10 Desember 1957. Penggabungan ini terjadi pada 1968. Direktur utama (Dirut) yang menjabat dari 2009 hingga 2014 adalah Karen Agustiawan yang dilantik oleh Menneg BUMN Syofan Djalil pada 5 Februari 2009 menggantikan Dirut yang lama Ari Hernanto Soemarno. Pelantikan Karen Agustiawan ini mencatat sejarah penting karena ia menjadi wanita pertama yang berhasil menduduki posisi puncak di perusahaan BUMN terbesar milik Indonesia itu. Karen Agustiawan mengundurkan diri sebagai Dirut pada 1 Oktober 2014 dan menjadi dosen guru besar di Harvard University, Boston, Amerika Serikat. Selanjutnya pada 28 November 2014, Presiden Joko Widodo memilih Dwi Soetjipto sebagai Direktur Utama PT Pertamina (Persero). Ia menggantikan Karen Agustiawan yang mengundurkan diri."/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="viewStart"
+                        android:text="          Kegiatan Pertamina dalam menyelenggarakan usaha di bidang energi dan petrokimia, terbagi ke dalam sektor Hulu dan Hilir, serta ditunjang oleh kegiatan anak-anak perusahaan dan perusahaan patungan."/>
+                        <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                            android:textAlignment="viewStart"
+                    android:text="          Pada tahun 2013, Pertamina menempati peringkat 122 dari 500 perusahaan terbaik dunia versi Fortune Global."/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
